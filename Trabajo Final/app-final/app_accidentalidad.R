@@ -54,7 +54,7 @@ class_accide <- unique(data_accidentalidad$CLASE)
 list_comunas <- unique(data_accidentalidad$COMUNA)
 hora<-unique(data_accidentalidad$HORA)
 dia<-unique(data_accidentalidad$DIA_NOMBRE)
-festividades <- c("SEMANA SANTA", "FERIA FLORES", "FIESTA NAVIDAD","PARTIDOS NACIONAL MEDELLIN")
+festividades <- c("SEMANA SANTA", "FERIA FLORES", "FIESTA NAVIDAD")
 # Define UI for application that draws a histogram
 ui <- fluidPage(
     
